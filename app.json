@@ -34,7 +34,29 @@
           "backgroundColor": "#ffffff"
         }
       ],
-      "react-native-ble-plx"
+      "react-native-ble-plx",
+      [
+        "expo-font",
+        {
+          "fonts": ["./assets/fonts/Kanit/Kanit-Bold.ttf"],
+          "android": {
+            "fonts": [
+              {
+                "fontFamily": "Kanit",
+                "fontDefinitions": [
+                  {
+                    "path": "./assets/fonts/Kanit/Kanit-Bold.ttf",
+                    "weight": 700
+                  }
+                ]
+              }
+            ]
+          },
+          "ios": {
+            "fonts": ["./assets/fonts/Kanit/Kanit-Bold.ttf"]
+          }
+        }
+      ]
     ],
     "experiments": {
       "typedRoutes": true

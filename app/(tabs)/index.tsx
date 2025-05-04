@@ -5,9 +5,8 @@ export default function Home() {
   const router = useRouter();
 
   return (
-    <View style={{ padding: 20 }}>
-      <Text style={{ fontSize: 24 }}>Welcome</Text>
-      {/* This Link component will navigate to the route defined by map/index.tsx */}
+    <View className="flex-1 justify-center items-center">
+      <Text className="text-5xl text-accent font-kanit-bold">Welcome</Text>
       <Link href="../map">Go to map</Link>
     </View>
   );
